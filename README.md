@@ -2,7 +2,7 @@
 Como calcular pie? 
 
 - A probabilidade de dois números entre 1 e 100.000 escolhidos ao acaso serem co-primos é de:
->![equation](https://latex.codecogs.com/gif.latex?p&space;=&space;\frac{6}{\pi^{2}})
+>![equation](https://latex.codecogs.com/gif.latex?p&space;=&space;\frac{6}{\pi^{2}}) (*)
 - Lembre-se que para dois números serem co-primos eles não podem compartilhar nenhum fator comum a não ser o 1. Em outras palavras, dois números são co-primos quando o MDC (o número mais alto que devide os dois) dos dois é 1. 
 
 ## Algoritmo de Euclides
@@ -12,6 +12,9 @@ Com o algoritmo de euclides é possível determinar de forma eficiente se dois n
 > 1) Crie uma função que retorna True se dois números são co-primos e False se não são.
 > 2) Importe o modulo random 
 > 3) Escolha dois números aleatórios e teste se são co-primos:
-        > > 3.1) Se forem co-primos: Acumule em um contador + 1
-        > > 3.2) Se não forem: continue.
+> 3.1) Se forem co-primos: Acumule em um contador + 1
+> 3.2) Se não forem: continue.
+> 4) Faça a razão dos casos favoráveis (que a e b foram co-primos) e o número total de testes e iguale à razão (*)
+> 5) Isole o pi.
+
 
